@@ -1,0 +1,10 @@
+[
+  {
+    "routeId": "Route 101",
+    "stops": ["stop_A", "stop_B", "stop_C"]
+  },
+  {
+    "routeId": "Route 202",
+    "stops": ["stop_D", "stop_B", "stop_E"]
+  }
+]

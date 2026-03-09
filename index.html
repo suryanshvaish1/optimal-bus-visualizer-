@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Optimal Bus Visualizer</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <style>
+        body { font-family: sans-serif; }
+        #map { height: 500px; width: 100%; }
+        .controls { padding: 10px; background: #f0f0f0; }
+    </style>
+</head>
+<body>
+
+    <h2>Optimal Bus Visualizer</h2>
+
+    <div class="controls">
+        <label for="start-stop">Start:</label>
+        <select id="start-stop">
+            <option value="">Select start...</option>
+        </select>
+
+        <label for="end-stop">End:</label>
+        <select id="end-stop">
+            <option value="">Select end...</option>
+        </select>
+
+        <button id="find-route-btn">Find Optimal Route</button>
+         <button id="find-me-btn">Find My Location</button> ```
+         <img src="images/start_icon.png">
+     </div>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
